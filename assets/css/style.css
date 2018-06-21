@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+
+canvas {
+  /*background-color: red;*/
+}
+.rating-container {
+  width: 500px;
+  margin: 20px auto;
+}
+.rating {
+  margin: 20px auto;
+}
+.rating-item {
+  background: url(../img/star.png) no-repeat;
+  background-position: -20px -7px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.rating-item:hover,.rating-item.active {
+  background-position: -20px -30px;
+}
